@@ -1,0 +1,101 @@
+
+* {
+    text-align: center;
+}
+
+body {
+    font-family: 'Roboto Mono', monospace;
+    min-height: 400px;
+    background-image: url('https://images8.alphacoders.com/107/1074587.jpg');
+    background-color: #111;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+}
+
+.page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+}
+
+.page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+}
+
+.page-logo {
+    width: 200px;
+}
+
+.alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+fieldset {
+  margin: auto;
+  width: 350px;
+  border: 0px solid white;
+  text-align: left;
+}
+
+#AdicionarTime {
+  text-align: center;
+}
+
+input[type=text] {
+  text-align: center;
+}
+
+#vitoriasTimeNovo {
+  text-align: center;
+}
+
+#empatesTimeNovo {
+  text-align: center;
+}
+
+#derrotasTimeNovo {
+  text-align: center;
+}
+
+label {
+  color: white;
+  text-align: left;
+}
+
+table {
+    border: 2px solid white;
+    border-collapse: collapse;
+    width: 95%;
+    max-width: 600px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    color: white;
+}
+
+th, tr, td {
+    border: solid 1px white;
+    color: white;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
