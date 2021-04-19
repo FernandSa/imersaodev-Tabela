@@ -1,0 +1,64 @@
+<html>
+
+<head>
+  <title>
+    Imersão Dev - Aula 06
+  </title>
+</head>
+
+<body>
+  <h1>Tabela de Classificação</h1>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Nome</th>
+        <th>Vitórias</ths>
+        <th>Empates</th>
+        <th>Derrotas</th>
+        <th>Pontos</th>
+				<th>Partidas</th>
+        <th colspan="2">Ações</th>
+      </tr>
+    </thead>
+    <tbody id="TabelaDosTimes">
+<!--   <tr>
+        <td>Paulo</td>
+        <td>2</td>
+        <td>1</td>
+        <td>1</td>
+        <td>7</td>
+        <td><button onClick="adicionarVitoria()">Vitória</button></td>
+        <td><button onClick="adicionarEmpate()">Empate</button></td>
+        <td><button onClick="adicionarDerrota()">Derrota</button></td>
+      </tr>
+      <tr>
+        <td>Rafa</td>
+        <td>1</td>
+        <td>4<td>
+        <td>2</td>
+        <td>7</td>
+        <td><button onClick="adicionarVitoria()">Vitória</button></td>
+        <td><button onClick="adicionarEmpate()">Empate</button></td>
+        <td><button onClick="adicionarDerrota()">Derrota</button></td>
+      </tr> -->
+    </tbody>
+  </table>
+	<br><br>
+	<button id='NovoTime' onclick='NovoTime()'>Time Novo</button>
+  <button id='LimparTabela' onclick='LimparTabela()'>Limpar Tabela</button>
+	<br>
+	<form id='formularioTimeNovo' onsubmit="return false">
+    <fieldset>
+    <label for='nomeTimeNovo'>Nome do Time:</label>
+		<input type='text' id='nomeTimeNovo'><br>
+    <label for='vitoriasTimeNovo'>Número de vitórias:</label>
+		<input type='number' id='vitoriasTimeNovo'><br>
+    <label for='empatesTimeNovo'>Número de empates:</label>
+		<input type='number' id='empatesTimeNovo'><br>
+    <label for='derrotasTimeNovo'>Número de derrotas:</label>
+		<input type='number' id='derrotasTimeNovo'>
+    </fieldset>
+    <input type="submit" id='AdicionarTimeNovo' onclick='AdicionarTime()' value='Adicionar Time Novo'>
+	</form>
+</body>
